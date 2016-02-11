@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Dating 2016</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Celebrity Date</h1>
+
+      <p>To give you a celebrity, we need to know a little about you:</p>
+
+      <form id="insurance">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+
+        <button type="submit" class="btn">Find my celebrity</button>
+      </form>
+
+      <div id="quote">
+        <p>You get to date <span id="date"></span>. You should probably just bike or take the bus.</p>
+      </div>
+    </div>
+  </body>
+</html>
